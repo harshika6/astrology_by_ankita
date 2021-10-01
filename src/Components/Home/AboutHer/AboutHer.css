@@ -1,0 +1,19 @@
+/* .main-div{
+    
+} */
+.clip-left{
+    clip-path: polygon(0 0, 45% 0, 50% 100%, 0% 100%);
+    height:75vh;
+    background-color:#1890ff;
+    border-right:2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.clip-right{
+    clip-path: polygon(50.5% 0, 100% 0, 100% 100%, 55% 100%);
+    height:75vh;
+    background: rgba(0, 0, 0, 0.4) url('../HomeBanner/astro.jfif') ;
+    object-fit: cover;
+    background-size: contain;
+}

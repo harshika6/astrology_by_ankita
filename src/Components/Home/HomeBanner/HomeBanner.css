@@ -1,0 +1,17 @@
+.home-baner{
+    background: rgba(0, 0, 0, 0.4) url('astro.jfif') no-repeat center center/cover;
+    background-size: cover;
+    height:88vh;
+    background-blend-mode:darken;
+}
+.helvetica {
+    font-family: 'helvetica neue', helvetica,
+                 sans-serif;
+                 font-weight:500;
+  }
+
+
+
+@media only screen and (max-width:500px){
+  
+}
